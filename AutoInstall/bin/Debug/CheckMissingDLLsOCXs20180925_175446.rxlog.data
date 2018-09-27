@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="74e000bac922e29"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.1.2.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="9/25/2018 5:54:58 PM"
+		timestampiso="2018-09-25T22:54:58"
+		endtime="9/25/2018 5:55:01 PM"
+		timeoutfactor="1"
+		module="CheckMissingDLLsOCXs">
+		<detail>
+			CheckMissingDLLsOCXs
+		</detail>
+		<errormessage>
+			Failed to run application 'CompareDLLs'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.874"
+			timeRelativeToTestModuleStartTime="00:01.874"
+			timeWallClock="17:55:00"
+			time="00:01.874"
+			level="Warn"
+			category="Data"
+			errimg=".\CheckMis_d2afb80b_21f042dc_trace.jpg"
+			errthumb=".\CheckMis_d2afb80b_21f042dc_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>ScriptLocation
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.999"
+			timeRelativeToTestModuleStartTime="00:01.999"
+			timeWallClock="17:55:00"
+			time="00:01.999"
+			level="Info"
+			category="Application"
+			errimg=".\CheckMis_d2afb80b_3b6d405b_trace.jpg"
+			errthumb=".\CheckMis_d2afb80b_3b6d405b_trace_thumb.jpg">
+			<message>
+				script to check DLL and OCX in HB against masterlist on V:<br/>Run application 'CompareDLLs' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\hayyaan.merchant\Downloads\GithubTest-master\AutoInstall\CheckMissingDLLsOCXs.cs"
+				codeline="96"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.406"
+			timeRelativeToTestModuleStartTime="00:02.406"
+			timeWallClock="17:55:01"
+			time="00:02.406"
+			level="Error"
+			category="Module"
+			errimg=".\CheckMis_d2afb80b_b1668800_trace.jpg"
+			errthumb=".\CheckMis_d2afb80b_b1668800_trace_thumb.jpg">
+			<message>
+				Failed to run application 'CompareDLLs'.<br/>The system cannot find the file specified
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Host.RunApplication(String fileName, String arguments, String workingDirectory, Boolean maximized)
+   at AutoInstall.CheckMissingDLLsOCXs.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\hayyaan.merchant\Downloads\GithubTest-master\AutoInstall\CheckMissingDLLsOCXs.cs:line 97
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\hayyaan.merchant\Downloads\GithubTest-master\AutoInstall\CheckMissingDLLsOCXs.cs"
+				codeline="97"
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

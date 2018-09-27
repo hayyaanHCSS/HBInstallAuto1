@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="14.33s"
+		durationms="14328"
+		type="root"
+		rid="169666eeb7d1d57c"
+		totalerrorcount="1"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.1.2.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="9/25/2018 8:50:58 AM"
+		timestampiso="2018-09-25T13:50:58"
+		endtime="9/25/2018 8:51:13 AM"
+		timeoutfactor="1"
+		module="ConfirmHBInstallFinish">
+		<detail>
+			ConfirmHBInstallFinish
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.328"
+			timeRelativeToTestModuleStartTime="00:01.328"
+			timeWallClock="08:50:59"
+			time="00:01.328"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>YearVersion, HBInstallLocation
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.421"
+			timeRelativeToTestModuleStartTime="00:01.421"
+			timeWallClock="08:50:59"
+			time="00:01.421"
+			level="Info"
+			category="Validation">
+			<message>
+				(Optional Action)<br/>B.3<br/>Validating AttributeRegex (Text~'HeavyBid') on item 'HeavyBidServerSetup.TextContainersForValidation.Titlebar'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HeavyBid' and @title~'Setup']/titlebar"
+				itempath="titlebar"
+				fullname="AutoInstallRepository.HeavyBidServerSetup.TextContainersForValidation.Titlebar"
+				id="dddd424dc9ea451b9ae6d11ef58210a7"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\GithubTest-master\AutoInstall\ConfirmHBInstallFinish.cs"
+				codeline="108"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.484"
+			timeRelativeToTestModuleStartTime="00:02.484"
+			timeWallClock="08:51:00"
+			time="00:02.484"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AutoInstallRepository.HeavyBidServerSetup.TextContainersForValidation.Titlebar' does match the specified RegEx.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HeavyBid' and @title~'Setup']/titlebar"
+				itempath="titlebar"
+				fullname="AutoInstallRepository.HeavyBidServerSetup.TextContainersForValidation.Titlebar"
+				id="dddd424dc9ea451b9ae6d11ef58210a7"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\GithubTest-master\AutoInstall\ConfirmHBInstallFinish.cs"
+				codeline="109"
+				loglvl="Success"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.484"
+			timeRelativeToTestModuleStartTime="00:02.484"
+			timeWallClock="08:51:00"
+			time="00:02.484"
+			level="Info"
+			category="Validation">
+			<message>
+				(Optional Action)<br/>B.3<br/>Validating AttributeRegex (Text~'Setup') on item 'HeavyBidServerSetup.TextContainersForValidation.Titlebar'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HeavyBid' and @title~'Setup']/titlebar"
+				itempath="titlebar"
+				fullname="AutoInstallRepository.HeavyBidServerSetup.TextContainersForValidation.Titlebar"
+				id="dddd424dc9ea451b9ae6d11ef58210a7"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\GithubTest-master\AutoInstall\ConfirmHBInstallFinish.cs"
+				codeline="115"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.578"
+			timeRelativeToTestModuleStartTime="00:02.578"
+			timeWallClock="08:51:00"
+			time="00:02.578"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'AutoInstallRepository.HeavyBidServerSetup.TextContainersForValidation.Titlebar' does match the specified RegEx.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HeavyBid' and @title~'Setup']/titlebar"
+				itempath="titlebar"
+				fullname="AutoInstallRepository.HeavyBidServerSetup.TextContainersForValidation.Titlebar"
+				id="dddd424dc9ea451b9ae6d11ef58210a7"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\GithubTest-master\AutoInstall\ConfirmHBInstallFinish.cs"
+				codeline="116"
+				loglvl="Success"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.578"
+			timeRelativeToTestModuleStartTime="00:02.578"
+			timeWallClock="08:51:00"
+			time="00:02.578"
+			level="Info"
+			category="Validation">
+			<message>
+				(Optional Action)<br/>B.3<br/>Validating AttributeRegex (Text~$YearVersion) on item 'HeavyBidServerSetup.TextContainersForValidation.Titlebar'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HeavyBid' and @title~'Setup']/titlebar"
+				itempath="titlebar"
+				fullname="AutoInstallRepository.HeavyBidServerSetup.TextContainersForValidation.Titlebar"
+				id="dddd424dc9ea451b9ae6d11ef58210a7"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\GithubTest-master\AutoInstall\ConfirmHBInstallFinish.cs"
+				codeline="122"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.687"
+			timeRelativeToTestModuleStartTime="00:02.687"
+			timeWallClock="08:51:01"
+			time="00:02.687"
+			level="Success"
+			category="Validation"
+			errimg=".\ConfirmH_805c74e_56c9f9d8_trace.jpg"
+			errthumb=".\ConfirmH_805c74e_56c9f9d8_trace_thumb.jpg">
+			<message>
+				Attribute 'Text' of element for item 'AutoInstallRepository.HeavyBidServerSetup.TextContainersForValidation.Titlebar' does match the specified RegEx.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HeavyBid' and @title~'Setup']/titlebar"
+				itempath="titlebar"
+				fullname="AutoInstallRepository.HeavyBidServerSetup.TextContainersForValidation.Titlebar"
+				id="dddd424dc9ea451b9ae6d11ef58210a7"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\GithubTest-master\AutoInstall\ConfirmHBInstallFinish.cs"
+				codeline="123"
+				loglvl="Success"
+				itemindex="2">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.687"
+			timeRelativeToTestModuleStartTime="00:02.687"
+			timeWallClock="08:51:01"
+			time="00:02.687"
+			level="Info"
+			category="Validation"
+			errimg=".\ConfirmH_805c74e_56c9f9d8_trace.jpg"
+			errthumb=".\ConfirmH_805c74e_56c9f9d8_trace_thumb.jpg">
+			<message>
+				(Optional Action)<br/>Validating AttributeContains (Text&gt;$HBInstallLocation) on item 'HeavyBidServerSetup.TextContainersForValidation.ReadyToInstallScreen.ConfirmFilepathTextbox'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'HeavyBid' and @title~'Setup']/text[@text~'install HeavyBid in:']"
+				itempath="text[@text~'install HeavyBid in:']"
+				fullname="AutoInstallRepository.HeavyBidServerSetup.TextContainersForValidation.ReadyToInstallScreen.ConfirmFilepathTextbox"
+				id="1f669d2f006046e6b72ddff298a045e0"
+				timeout="60000"
+				codefile="c:\Users\hayyaan.merchant\Downloads\GithubTest-master\AutoInstall\ConfirmHBInstallFinish.cs"
+				codeline="128"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.328"
+			timeRelativeToTestModuleStartTime="00:14.328"
+			timeWallClock="08:51:12"
+			time="00:14.328"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.625"
+			timeRelativeToTestModuleStartTime="00:14.625"
+			timeWallClock="08:51:13"
+			time="00:14.625"
+			level="Warn"
+			category="Module"
+			errimg=".\ConfirmH_805c74e_9c4c38df_trace.jpg"
+			errthumb=".\ConfirmH_805c74e_9c4c38df_trace_thumb.jpg">
+			<message>
+				(Optional Action) Thread was being aborted.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\hayyaan.merchant\Downloads\GithubTest-master\AutoInstall\ConfirmHBInstallFinish.cs"
+				codeline="131"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+	</activity>
+</report>

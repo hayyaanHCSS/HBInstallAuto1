@@ -1,0 +1,24 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="CompareServerAndWSBin.rxrec" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="AutoInstall.rxtst" />
+    <Element value="CheckMissingDLLsOCXs.rxrec" />
+    <Element value="CompareServerAndWSBin.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections">
+      <Element value="AutoInstall.ValidateBiditemStructureOutput.ValidateContentBiditemStructure()" />
+      <Element value="AutoInstall.ValidateBiditemStructureOutput.BiditemStructureExists()" />
+      <Element value="AutoInstall.ValidateCostPriceOutput.ValidateContentCostPrice()" />
+      <Element value="AutoInstall.ValidateCostPriceOutput.CostPriceExists()" />
+      <Element value="AutoInstall.ValidateChiefEstimatorOutput.ValidateContentChiefEstimator()" />
+      <Element value="AutoInstall.ValidateChiefEstimatorOutput.ChiefEstimatorExists()" />
+    </Array>
+  </Properties>
+</Properties>

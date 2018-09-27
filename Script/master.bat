@@ -1,0 +1,8 @@
+PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& 'W:\HBDaily\InstallAutomation\Script\CompareWSandServerBIN.ps1'"
+PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& 'W:\HBDaily\InstallAutomation\Script\exeVersionWS.ps1'"
+PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& 'W:\HBDaily\InstallAutomation\Script\exeVersionServer.ps1'"
+PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& 'W:\HBDaily\InstallAutomation\Script\diffUTIL.ps1'"
+PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& 'W:\HBDaily\InstallAutomation\Script\diffBIN.ps1'"
+PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& 'W:\HBDaily\InstallAutomation\Script\diffHCSS.ps1'"
+PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& 'W:\HBDaily\InstallAutomation\Script\diffSYS.ps1'"
+PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& 'W:\HBDaily\InstallAutomation\Script\compareDLLs.ps1'"

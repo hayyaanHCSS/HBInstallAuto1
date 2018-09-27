@@ -1,0 +1,9 @@
+C:
+cd C:\HeavyBid\
+dir /s > V:\alex.kwie\hbBin2018.1.txt
+cd C:\HeavyBid2017
+dir /s > V:\alex.kwie\hbBin2017.1.txt
+
+
+FC /L V:\alex.kwie\hbBin2018.1.txt V:\alex.kwie\hbBin2017.1.txt > V:\alex.kwie\CompareBins.txt
+

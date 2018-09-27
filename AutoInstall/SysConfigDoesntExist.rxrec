@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="63bb37b0-fede-45e3-bd41-bf349ce4925f"
+mode="Global"
+rxversion="8.1">
+	<name>
+		SysConfigDoesntExist
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="SysConfigDoesntExist"
+	namespace="AutoInstall">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="SysConfigDoesntExist"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="CheckSysConfigExists"
+		namespace="AutoInstall"
+		optional="True"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="17865e9f-1d19-40e9-bf73-da3a5d50548a">
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="29554df4-a9a1-4bb5-bc7d-e1bab206a73f"
+	name="AutoInstallRepository"
+	relativepath="AutoInstallRepository.rxrep"
+	rxversion="8.1">
+		<codegen
+		classname="AutoInstallRepository"
+		namespace="AutoInstall">
+		</codegen>
+		<rootfolder
+		id="41d3209a-6b55-4d11-ade5-8b107ab3f7a7"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		SysConfigDoesntExist.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

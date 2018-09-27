@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2f8fd45a96bc307a"
+		totalerrorcount="1"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.1.2.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="9/26/2018 8:09:39 AM"
+		timestampiso="2018-09-26T13:09:39"
+		endtime="9/26/2018 8:10:12 AM"
+		timeoutfactor="1"
+		module="CompareServerAndWSBin">
+		<detail>
+			CompareServerAndWSBin
+		</detail>
+		<errormessage>
+			File not found for comparison in Validate_FileContentEqual: Downloads\InternFinal\InternFinal\Script\Reports\DiffBetweenServWsBIN - Copy.txt
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.765"
+			timeRelativeToTestModuleStartTime="00:01.765"
+			timeWallClock="08:09:41"
+			time="00:01.765"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>ScriptLocation
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.906"
+			timeRelativeToTestModuleStartTime="00:01.906"
+			timeWallClock="08:09:41"
+			time="00:01.906"
+			level="Info"
+			category="Application">
+			<message>
+				(Optional Action)<br/>run powershell script for any file difference between server and workstation<br/>Run application 'runWSComparison.bat' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\hayyaan.merchant\Downloads\GithubTest-master\AutoInstall\CompareServerAndWSBin.cs"
+				codeline="97"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.312"
+			timeRelativeToTestModuleStartTime="00:02.312"
+			timeWallClock="08:09:42"
+			time="00:02.312"
+			level="Warn"
+			category="Module"
+			errimg=".\CompareS_bddeb500_4948badb_trace.jpg"
+			errthumb=".\CompareS_bddeb500_4948badb_trace_thumb.jpg">
+			<message>
+				(Optional Action) Failed to run application 'runWSComparison.bat'.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\hayyaan.merchant\Downloads\GithubTest-master\AutoInstall\CompareServerAndWSBin.cs"
+				codeline="100"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.312"
+			timeRelativeToTestModuleStartTime="00:02.312"
+			timeWallClock="08:09:42"
+			time="00:02.312"
+			level="Info"
+			category="Delay"
+			errimg=".\CompareS_bddeb500_4948badb_trace.jpg"
+			errthumb=".\CompareS_bddeb500_4948badb_trace_thumb.jpg">
+			<message>
+				Waiting for 30s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\hayyaan.merchant\Downloads\GithubTest-master\AutoInstall\CompareServerAndWSBin.cs"
+				codeline="102"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:32.313"
+			timeRelativeToTestModuleStartTime="00:32.313"
+			timeWallClock="08:10:12"
+			time="00:32.313"
+			level="Failure"
+			category="File Exist"
+			errimg=".\CompareS_bddeb500_14eb0259_trace.jpg"
+			errthumb=".\CompareS_bddeb500_14eb0259_trace_thumb.jpg">
+			<message>
+				Fail. DiffBetweenServWsBIN.txt does not exists.
+			</message>
+			<metainfo
+				codefile="c:\Users\hayyaan.merchant\Downloads\GithubTest-master\AutoInstall\CompareServerAndWSBin.UserCode.cs"
+				codeline="51"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:32.328"
+			timeRelativeToTestModuleStartTime="00:32.328"
+			timeWallClock="08:10:12"
+			time="00:32.328"
+			level="Error"
+			category="Module"
+			errimg=".\CompareS_bddeb500_14eb0259_trace.jpg"
+			errthumb=".\CompareS_bddeb500_14eb0259_trace_thumb.jpg">
+			<message>
+				File not found for comparison in Validate_FileContentEqual: Downloads\InternFinal\InternFinal\Script\Reports\DiffBetweenServWsBIN - Copy.txt
+			</message>
+			<metainfo
+				stacktrace="   at AutoInstall.CompareServerAndWSBin.ValidateWSComparisonReportContent() in c:\Users\hayyaan.merchant\Downloads\GithubTest-master\AutoInstall\CompareServerAndWSBin.UserCode.cs:line 92
+   at AutoInstall.CompareServerAndWSBin.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\hayyaan.merchant\Downloads\GithubTest-master\AutoInstall\CompareServerAndWSBin.cs:line 110
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\hayyaan.merchant\Downloads\GithubTest-master\AutoInstall\CompareServerAndWSBin.UserCode.cs"
+				codeline="92"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

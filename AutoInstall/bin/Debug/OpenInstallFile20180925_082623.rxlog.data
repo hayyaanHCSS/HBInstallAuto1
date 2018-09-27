@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="304600f9695acaa9"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.1.2.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="9/25/2018 8:26:38 AM"
+		timestampiso="2018-09-25T13:26:38"
+		endtime="9/25/2018 8:26:41 AM"
+		timeoutfactor="1"
+		module="OpenInstallFile">
+		<detail>
+			OpenInstallFile
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.749"
+			timeRelativeToTestModuleStartTime="00:01.749"
+			timeWallClock="08:26:40"
+			time="00:01.749"
+			level="Info"
+			category="Application">
+			<message>
+				B.1<br/>Run application 'C:\Users\hayyaan.merchant\Desktop\BATCH\PullLatestInstall.bat' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\hayyaan.merchant\Downloads\GithubTest-master\AutoInstall\OpenInstallFile.cs"
+				codeline="83"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

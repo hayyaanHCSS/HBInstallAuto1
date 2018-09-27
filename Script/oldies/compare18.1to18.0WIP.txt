@@ -1,0 +1,11 @@
+$rooty = "C:\HeavyBid\"
+$ReferenceNoEST = get-ChildItem -recurse $rooty -Name Where $_.FullName -notcontains "EST"
+
+$tabooty = "C:\HeavyBid18.0\"
+$ReferenceNoEST18 = get-ChildItem $tabooty -Recurse -Name | Where {$_.FullName -notcontains "EST"} 
+
+(Compare-Object -ReferenceObject $ReferenceNoEST -DifferenceObject $ReferenceNoEST18 |
+    ForEach-Object {
+        $_.SideIndicator = $_.SideIndicator -replace '=>','Not in 18.1' -replace '<=','Not in 18.0'
+        $_
+    })

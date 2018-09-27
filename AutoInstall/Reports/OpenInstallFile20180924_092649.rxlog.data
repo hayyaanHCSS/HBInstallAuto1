@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="299f9ca3366ce0bf"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="hayyaan.merchant"
+		rxversion="8.1.2.0"
+		host="HBAUTO-INSTALL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1536x864"
+		timestamp="9/24/2018 9:26:57 AM"
+		timestampiso="2018-09-24T14:26:57"
+		endtime="9/24/2018 9:27:07 AM"
+		timeoutfactor="1"
+		module="OpenInstallFile">
+		<detail>
+			OpenInstallFile
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.031"
+			timeRelativeToTestModuleStartTime="00:01.031"
+			timeWallClock="09:26:58"
+			time="00:01.031"
+			level="Info"
+			category="Application">
+			<message>
+				B.1<br/>Run application 'HeavyBid2018.1_RC1.msi' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\hayyaan.merchant\Downloads\GithubTest-master\AutoInstall\OpenInstallFile.cs"
+				codeline="83"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

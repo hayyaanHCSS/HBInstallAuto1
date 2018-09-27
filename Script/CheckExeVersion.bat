@@ -1,0 +1,2 @@
+PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& 'W:\HBDaily\InstallAutomation\Script\exeVersionWS.ps1'"
+PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& 'W:\HBDaily\InstallAutomation\Script\exeVersionServer.ps1'"
